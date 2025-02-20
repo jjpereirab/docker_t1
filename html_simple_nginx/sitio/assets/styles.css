@@ -3,8 +3,6 @@
 --bronze-ravenclaw: #946B2D; /* Bronze */
 --dark-ravenclaw: #0A1426; /* Dark Ravenclaw Blue */
 --white: #FFFFFF; /* Keep white as-is */
---rosa1: #f279a1;
---rosa2: #ed4d82;
 }
 
 body {
@@ -56,11 +54,11 @@ fill: var(--bronze-ravenclaw);
 }
 
 h4 {
-color: #ffffff; 
+color: var(--white); 
 }
 
 p {
-color: #ffffff; 
+color: var(--white); 
 }
 
 

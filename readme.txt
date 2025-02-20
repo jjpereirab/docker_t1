@@ -35,3 +35,9 @@ ver Dockerfile***
 
 CMD define el proceso que se ejecutará cuando el contenedor inicie, mientras que RUN se usa para ejecutar comandos durante la construcción de la imagen y su resultado se guarda en la capa de la imagen.
 
+
+----------------------------- Clase 12 sobre VOLUMENES - en html_simple_nginx
+Agregué un subfolder con varias imagenes y movi alli el css. 
+Con el siguiente comando se define un volumen en el contenedor, donde docker vincula /usr/share/nginx/html con ./sitio:/usr/share/nginx/html para hacer efectivas modificaciones
+    docker run -it --rm -d -p 8080:80 -v ./sitio:/usr/share/nginx/html --name web webclaire
+
