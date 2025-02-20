@@ -1,0 +1,76 @@
+:root {
+--blue-ravenclaw: #0E1A40; /* Ravenclaw Blue */
+--bronze-ravenclaw: #946B2D; /* Bronze */
+--dark-ravenclaw: #0A1426; /* Dark Ravenclaw Blue */
+--white: #FFFFFF; /* Keep white as-is */
+--rosa1: #f279a1;
+--rosa2: #ed4d82;
+}
+
+body {
+background: url("Raccoon_City_REORC.webp"); /* The image used for background */
+}
+
+.container {
+width: 100%;
+height: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.links-container {
+display: flex;
+flex-direction: column;
+jusify-content: center;
+align-items: center;
+}
+
+.links-container a {
+width: 80%;
+}
+
+.w3-theme-l1:hover {
+background-color: var(--bronze-ravenclaw) !important;
+}
+
+.margin-top-2 {
+margin-top: 32px;
+}
+
+.bottom {
+width: 100%;
+text-align: center;
+width: auto;
+font-weight: bolder;
+}
+
+.bottom span {
+color: var(--bronze-ravenclaw);
+}
+
+.bottom svg {
+stroke: var(--bronze-ravenclaw);
+fill: var(--bronze-ravenclaw);
+}
+
+h4 {
+color: #ffffff; 
+}
+
+p {
+color: #ffffff; 
+}
+
+
+@media (min-width: 768px) {
+.link {
+width: 100%;
+}
+}
+@media (min-width: 576px) {
+.container {
+max-width: 540px;
+}
+}
