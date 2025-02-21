@@ -41,3 +41,10 @@ Agregué un subfolder con varias imagenes y movi alli el css.
 Con el siguiente comando se define un volumen en el contenedor, donde docker vincula /usr/share/nginx/html con ./sitio:/usr/share/nginx/html para hacer efectivas modificaciones
     docker run -it --rm -d -p 8080:80 -v ./sitio:/usr/share/nginx/html --name web webclaire
 
+
+----------------------------- Clase 16: Guardar y recuperar imágenes de Docker
+para guardar mi imagen con <REPOSITORY> name "webclaire"
+    docker save webclaire > nombre.rar
+
+para cargar la imagen, digamos en otra maquina
+    docker load --input nombre.rar
